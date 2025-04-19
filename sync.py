@@ -8,7 +8,9 @@ import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-from models import School, normalize_name
+from models import School
+from data_utils import normalize_name
+
 
 def sync_from_humanity(schools):
     shift_data = []
