@@ -22,8 +22,8 @@ def sync_from_humanity(schools):
 
         driver.get("https://www.humanity.com/app/")
         time.sleep(2)
-        driver.find_element(By.ID, "email").send_keys("<your_email>")
-        driver.find_element(By.ID, "password").send_keys("<your_password>")
+        driver.find_element(By.ID, "email").send_keys("21316153cc853d45b8200f852ea277eb")
+        driver.find_element(By.ID, "password").send_keys("<15079David")
         driver.find_element(By.NAME, "login").click()
         time.sleep(2)
 
